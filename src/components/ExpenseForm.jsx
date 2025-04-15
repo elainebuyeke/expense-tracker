@@ -55,7 +55,7 @@ const handleSubmit = (e) => {
        value={date}
        onChange={(e) => setDate(e.target.value)} />
 
-    <button type='submit'>Add Expense</button>              
+    <button type='submit'>Add</button>              
 </form>
   ) 
 }

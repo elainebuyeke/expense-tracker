@@ -50,7 +50,7 @@ const handleSubmit = (e) => {
        onChange={(e) => setAmount(e.target.value)} />
 
      <input 
-       type="text"
+       type="date"
        placeholder='date'
        value={date}
        onChange={(e) => setDate(e.target.value)} />
